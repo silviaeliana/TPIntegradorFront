@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Responsivo*/
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display:none;
+    }
+ 
+}
+ 
+
+/*Estilos generales*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font: sans-serif;
+}
+
+#img{
+  width:20px;
+  height:20px;
+}
+
+li{
+  float: left;
+  list-style: none;
+  padding: 10 px;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+li:hover a{
+  color:darkblue;
+}
+
+/*Barra de navegacion*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  padding: 2rem;
+  background: rgb(90, 90, 90);
+  height: 150px;
+}
+
+.navbar-collapse{
+  align-items:center;
+  justify-content: space-between;
+}
+
+h6{
+  color:white;
+}
+
+
+
+
+/*Seccion principal*/
+
+
+
+ .contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color:#fff;
+  height: 100vh;
+  opacity: 50;
+
+}
+
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.fcc-btn {
+  background-color:#fff;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-item{
+  order: 3;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+
+
+.titulo p{
+text-align: center;
+margin-top:7px;
+margin-bottom: 5px;
+}
+.titulo p+h3{
+
+  text-align: center;
+margin-top:1px;
+}
+.btn-info {
+background-color: gray;
+color: var(--colorenlace);
+margin-top: 1px;
+border-style: none;
+}
+
+.custom-button{
+ width: 25%;
+
+}
+.card{
+margin-top: 30px;
+
+}
+.image-container {
+  border: 1px solid white;}
+
+.informe p{
+  text-align: center;
+ margin-bottom: 2px;
+  }
+  
+
+
+
+  footer{
+    height: 100px;
+     background:rgb(4, 62, 66);
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+    }
+    
+    footer a {
+    color:#fff;
+    text-decoration: none;
+    }
+    
+    @media screen and (max-width:700px){
+    
+      footer-link{
+        flex-direction:row;
+      }
+    }
